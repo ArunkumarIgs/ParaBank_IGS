@@ -59,7 +59,7 @@ public class MainTest {
 	@Then("the user checks the account balance")
 	public void the_user_checks_the_account_balance() throws InterruptedException
 	{
-		Thread.sleep(4000);
+		Thread.sleep(4000);   // to check flow of execution
 		accountSummaryPage.getAccountBalance();
 	}
 
